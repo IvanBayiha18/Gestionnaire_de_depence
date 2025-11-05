@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord - Gestionnaire de Tâches</title>
+    <link rel="stylesheet" href="stylesListDep.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Gestionnaire de Dépenses</h1>
+            <ul>
+                <li><a href="#">Profil</a></li>
+                <li><button class="logoutButton"><b>Déconnexion</b></button></li>
+            </ul>
+        </nav>
+    </header>
+
+        <h2>Créer votre première Dépense</h2>
+        <form id="DepenseForm">
+            <label> Nouvelle Dépense :</label>
+            <input type="text" name="Dépense" required>
+            <button type="submit" class="submit">Ajouter une dépense</button>
+        </form>
+
+        <div id="dépense">
+            <h3>Liste des dépenses</h3>
+            <ul id="dépense"></ul>
+        </div>
+
+</body>
+</html>
